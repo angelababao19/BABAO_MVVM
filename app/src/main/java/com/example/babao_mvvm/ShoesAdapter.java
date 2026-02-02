@@ -1,4 +1,3 @@
-// ShoesAdapter.java
 package com.example.babao_mvvm;
 
 import android.view.LayoutInflater;
