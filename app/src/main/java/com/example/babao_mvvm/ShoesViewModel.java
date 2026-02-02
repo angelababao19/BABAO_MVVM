@@ -1,4 +1,3 @@
-// ShoesViewModel.java
 package com.example.babao_mvvm;
 
 import androidx.lifecycle.LiveData;
