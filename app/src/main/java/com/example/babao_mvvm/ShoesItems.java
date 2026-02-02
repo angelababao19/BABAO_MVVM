@@ -1,4 +1,3 @@
-// ShoesItems.java
 package com.example.babao_mvvm;
 
 public class ShoesItems {
