@@ -25,7 +25,6 @@
             android:scaleType="fitCenter"
             tools:src="@drawable/adidas1"/>
 
-        <!-- The rest of the TextViews are the same -->
         <TextView
             android:id="@+id/shoeNameTextView"
             android:layout_width="wrap_content"
