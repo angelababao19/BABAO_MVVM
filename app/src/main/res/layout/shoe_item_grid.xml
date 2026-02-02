@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="@color/shoes_bg"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="0dp"
+    app:strokeColor="@color/accent_purple"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/shoeImageView"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="fitCenter"
+            tools:src="@drawable/adidas1"/>
+
+        <!-- The rest of the TextViews are the same -->
+        <TextView
+            android:id="@+id/shoeNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/light_text"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="ADIZERO EVO SL"/>
+
+        <TextView
+            android:id="@+id/shoeBrandTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/medium_text"
+            android:textSize="14sp"
+            tools:text="Adidas"/>
+
+        <TextView
+            android:id="@+id/shoePriceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/accent_purple"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="₱8,500"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

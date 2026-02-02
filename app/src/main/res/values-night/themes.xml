@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Updated Theme to remove the top action bar -->
+    <style name="Theme.LightFeetApp" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/accent_purple</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/overall_bg</item>
+
+        <!-- Background colors -->
+        <item name="android:windowBackground">@color/overall_bg</item>
+        <item name="android:colorBackground">@color/overall_bg</item>
+        <item name="colorSurface">@color/shoes_bg</item>
+
+        <!-- Text Colors -->
+        <item name="colorOnBackground">@color/light_text</item>
+        <item name="colorOnSurface">@color/light_text</item>
+
+    </style>
+</resources>
